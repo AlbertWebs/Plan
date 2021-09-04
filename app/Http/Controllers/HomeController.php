@@ -62,9 +62,9 @@ class HomeController extends Controller
         }
         
         $Sliders = DB::table('sliders')->get();
-        $How = How::all();
+      
         
-        return view('front.index',compact('Sliders','page_title','How'));
+        return view('front.index',compact('Sliders','page_title'));
     }
 
     public function contact()
