@@ -37,7 +37,7 @@
                             <div class="main-slider__content">
                                 <p>welcome to Plan & Foccus consultancy</p>
                                 <h2>consulting <br> for every <br> business</h2>
-                                <a href="about.html" class="thm-btn">Discover More</a>
+                                <a href="{{url('/about-us')}}" class="thm-btn">Discover More</a>
                             </div>
                         </div>
                     </div>
@@ -58,9 +58,9 @@
                     <div class="row">
                         <div class="col-lg-8">
                             <div class="main-slider__content">
-                                <p>welcome to aivons consultancy</p>
+                                <p>welcome to Plan & Focus Consultants Limited consultancy</p>
                                 <h2>consulting <br> for every <br> business</h2>
-                                <a href="about.html" class="thm-btn">Discover More</a>
+                                <a href="{{url('/about-us')}}" class="thm-btn">Discover More</a>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
 <!--Real World Start-->
 <section class="real-world">
     <div class="real-world-shape wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms"
-        style="background-image: url(assets/images/shapes/real-world-shape.png)"></div>
+        style="background-image: url({{asset('theme/assets/images/shapes/real-world-shape.png')}})"></div>
     <div class="container">
         <div class="section-title text-center">
             <h2 class="section-title__title">real-world experience</h2>
@@ -94,9 +94,9 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <!--Real World Single-->
                 <div class="real-world__single">
-                    <h2 class="real-world__title"><a href="business-growth.html">wealth <br> Management</a>
+                    <h2 class="real-world__title"><a href="#">wealth <br> Management</a>
                     </h2>
-                    <a href="business-growth.html" class="real-world__btn">Read More</a>
+                    <a href="#" class="real-world__btn">Read More</a>
                     <div class="real-world__icon-box">
                         <span class="icon-wealth"></span>
                     </div>
@@ -105,8 +105,8 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                 <!--Real World Single-->
                 <div class="real-world__single">
-                    <h2 class="real-world__title"><a href="audit-marketing.html">audit <br> marketing</a></h2>
-                    <a href="audit-marketing.html" class="real-world__btn">Read More</a>
+                    <h2 class="real-world__title"><a href="#">audit <br> marketing</a></h2>
+                    <a href="#" class="real-world__btn">Read More</a>
                     <div class="real-world__icon-box">
                         <span class="icon-data-analytics"></span>
                     </div>
@@ -115,9 +115,9 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                 <!--Real World Single-->
                 <div class="real-world__single">
-                    <h2 class="real-world__title"><a href="financial-advice.html">Finance <br> consulting</a>
+                    <h2 class="real-world__title"><a href="#">Finance <br> consulting</a>
                     </h2>
-                    <a href="financial-advice.html" class="real-world__btn">Read More</a>
+                    <a href="#" class="real-world__btn">Read More</a>
                     <div class="real-world__icon-box">
                         <span class="icon-report"></span>
                     </div>
@@ -208,7 +208,7 @@
                         <div class="welcome-one__img-2">
                             <img src="{{asset('theme/assets/images/resources/welcome-1-img-2.jpg')}}" alt="">
                         </div>
-                        <a href="https://www.youtube.com/watch?v=i9E_Blai8vk"
+                        <a href="https://www.youtube.com/watch?v=2Gg6Seob5Mg"
                             class="welcome-one__video-btn video-popup">
                             <div class="welcome-one__video-btn-icon">
                                 <i class="fa fa-play"></i>
@@ -250,10 +250,10 @@
                         </div>
                         <div class="welcome-one__call-text">
                             <p>Have any question? Give us a call</p>
-                            <a href="tel:+92-666-888-0000">+92 666 888 0000</a>
+                            <a href="tel:+92-666-888-0000">+254723014032</a>
                         </div>
                     </div>
-                    <div class="welcome-one__big-text">aivons</div>
+                    <div class="welcome-one__big-text">Plan </div>
                 </div>
             </div>
         </div>
@@ -302,7 +302,7 @@
 <section class="cases-one">
     <div class="container">
         <div class="section-title text-center">
-            <h2 class="section-title__title">new case studies</h2>
+            <h2 class="section-title__title">Case Studies</h2>
             <span class="section-title__tagline">We help our clients renew their business</span>
         </div>
         <div class="row">
@@ -318,7 +318,7 @@
                                 <span class="icon-mobile-analytics"></span>
                             </div>
                             <p class="cases-one__tagline">Thought leadership</p>
-                            <h2 class="cases-one__tilte"><a href="cases-details.html">businesses growth</a></h2>
+                            <h2 class="cases-one__tilte"><a href="#">businesses growth</a></h2>
                         </div>
                     </div>
                 </div>
@@ -335,7 +335,7 @@
                                 <span class="icon-research"></span>
                             </div>
                             <p class="cases-one__tagline">Risk management</p>
-                            <h2 class="cases-one__tilte"><a href="cases-details.html">Marketing advice</a></h2>
+                            <h2 class="cases-one__tilte"><a href="#">Marketing advice</a></h2>
                         </div>
                     </div>
                 </div>
@@ -352,7 +352,7 @@
                                 <span class="icon-creative"></span>
                             </div>
                             <p class="cases-one__tagline">Business strategy</p>
-                            <h2 class="cases-one__tilte"><a href="cases-details.html">finance consulting</a>
+                            <h2 class="cases-one__tilte"><a href="#">finance consulting</a>
                             </h2>
                         </div>
                     </div>
@@ -366,14 +366,14 @@
 <!--Our Mission Start-->
 <section class="our-mission">
     <div class="our-mission-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-        style="background-image: url(assets/images/backgrounds/our-mission-bg.jpg)"></div>
+        style="background-image: url({{asset('theme/assets/images/backgrounds/our-mission-bg.jpg')}})"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="our-mission__inner">
                     <h2 class="our-mission__title">Mission is to Protect <br> your Businesses & <br> Much More
                     </h2>
-                    <a href="services.html" class="thm-btn our-mission__btn">Discover More</a>
+                    <a href="{{url('/')}}/about-us" class="thm-btn our-mission__btn">Discover More</a>
                 </div>
             </div>
         </div>
@@ -850,7 +850,7 @@
 <!--Google Map Start-->
 <section class="google-map">
     <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.277444357953!2d36.8222756!3d-1.2821653!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb39310a139138d6!2sDesignekta%20Studios!5e0!3m2!1sen!2ske!4v1630767329878!5m2!1sen!2ske"
         class="google-map__one" allowfullscreen></iframe>
 
 </section>
@@ -869,7 +869,7 @@
                 <div class="news-one__single">
                     <div class="news-one__img">
                         <img src="{{asset('theme/assets/images/blog/news-1-1.jpg')}}" alt="">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <span class="news-one__plus"></span>
                         </a>
                     </div>
@@ -881,11 +881,11 @@
                             </li>
                         </ul>
                         <h3 class="news-one__title">
-                            <a href="blog-details.html">Metrics mission skills.</a>
+                            <a href="#">Metrics mission skills.</a>
                         </h3>
                         <p class="news-one__text">Aellentesque porttitor lacus quis enim varius sed efficitur
                             turpis gilla sed sit amet.</p>
-                        <a href="blog-details.html" class="news-one__btn">Read More</a>
+                        <a href="#" class="news-one__btn">Read More</a>
                         <div class="news-one__date-box">
                             <p>26 mar</p>
                         </div>
@@ -897,7 +897,7 @@
                 <div class="news-one__single">
                     <div class="news-one__img">
                         <img src="{{asset('theme/assets/images/blog/news-1-2.jpg')}}" alt="">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <span class="news-one__plus"></span>
                         </a>
                     </div>
@@ -909,11 +909,11 @@
                             </li>
                         </ul>
                         <h3 class="news-one__title">
-                            <a href="blog-details.html">solutions total link parallel</a>
+                            <a href="#">solutions total link parallel</a>
                         </h3>
                         <p class="news-one__text">Aellentesque porttitor lacus quis enim varius sed efficitur
                             turpis gilla sed sit amet.</p>
-                        <a href="blog-details.html" class="news-one__btn">Read More</a>
+                        <a href="#" class="news-one__btn">Read More</a>
                         <div class="news-one__date-box">
                             <p>26 mar</p>
                         </div>
@@ -925,7 +925,7 @@
                 <div class="news-one__single">
                     <div class="news-one__img">
                         <img src="{{asset('theme/assets/images/blog/news-1-3.jpg')}}" alt="">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <span class="news-one__plus"></span>
                         </a>
                     </div>
@@ -937,11 +937,11 @@
                             </li>
                         </ul>
                         <h3 class="news-one__title">
-                            <a href="blog-details.html">business advice for growth</a>
+                            <a href="#">business advice for growth</a>
                         </h3>
                         <p class="news-one__text">Aellentesque porttitor lacus quis enim varius sed efficitur
                             turpis gilla sed sit amet.</p>
-                        <a href="blog-details.html" class="news-one__btn">Read More</a>
+                        <a href="#" class="news-one__btn">Read More</a>
                         <div class="news-one__date-box">
                             <p>26 mar</p>
                         </div>
@@ -964,7 +964,7 @@
                         <h2 class="cta-one__title">we’re delivering the best <br> customer experience</h2>
                     </div>
                     <div class="cta-one__right">
-                        <a href="contact.html" class="thm-btn cta-one__btn">let’s get started</a>
+                        <a href="{{url('/')}}/contact-us" class="thm-btn cta-one__btn">let’s get started</a>
                     </div>
                 </div>
             </div>

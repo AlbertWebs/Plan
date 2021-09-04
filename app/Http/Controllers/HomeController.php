@@ -9,6 +9,7 @@ use Artesaos\SEOTools\Facades\SEOMeta;
 use Artesaos\SEOTools\Facades\OpenGraph;
 use Artesaos\SEOTools\Facades\TwitterCard;
 use Artesaos\SEOTools\Facades\JsonLd;
+use App\Models\About;
 // OR with multi
 use Artesaos\SEOTools\Facades\JsonLdMulti;
 

@@ -82,13 +82,13 @@
                                     <a href="{{url('/')}}">Home</a>
                                 </li>
                                 <li class="dropdown  ">
-                                    <a href="{{url('/')}}">About Us</a>
+                                    <a href="{{url('/')}}/about-us">About Us</a>
                                 </li>
                                 <li class="dropdown  ">
-                                    <a href="{{url('/')}}">Our Services</a>
+                                    <a onclick="return alert('List of Services Goes Here')" href="#">Our Services</a>
                                 </li>
                               
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="{{url('/')}}/contact-us">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                                 <div class="footer-widget__about-logo">
                                     <a href="{{url('/')}}"><img width="200" src="{{asset('/')}}uploads/logo/logo-v.png" alt=""></a>
                                 </div>
-                                <p class="footer-widget__text">Welcome to our consultancy agency. Some text could follow here</p>
+                                {{-- <p class="footer-widget__text">Welcome to our consultancy agency. Some text could follow here</p> --}}
                                 <ul class="list-unstyled footer-widget__contact-list">
                                     <li>
                                         <div class="icon">
@@ -166,17 +166,17 @@
                             <div class="footer-widget__column footer-widget__explore clearfix">
                                 <h3 class="footer-widget__title">Explore</h3>
                                 <ul class="footer-widget__explore-list list-unstyled">
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="team.html">Meet our team</a></li>
-                                    <li><a href="cases.html">Case stories</a></li>
-                                    <li><a href="blog.html">Latest news</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Meet our team</a></li>
+                                    <li><a href="#">Case Studies</a></li>
+                                    <li><a href="#">Latest news</a></li>
+                                    <li><a href="#">Contact</a></li>
                                 </ul>
                                 <ul class="footer-widget__explore-list footer-widget__explore-list-two list-unstyled">
-                                    <li><a href="contact.html">Support</a></li>
-                                    <li><a href="faq.html">Terms of use</a></li>
-                                    <li><a href="about.html">Privacy policy</a></li>
-                                    <li><a href="faq.html">Help</a></li>
+                                    <li><a href="#">Support</a></li>
+                                    <li><a href="#">Terms of use</a></li>
+                                    <li><a href="#">Privacy policy</a></li>
+                                    <li><a href="#">Help</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -200,7 +200,7 @@
                         <div class="col-xl-12">
                             <div class="site-footer-bottom__inner">
                                 <div class="site-footer-bottom__left">
-                                    <p>© Copyright 2021 by <a href="#">Layerdrops.com</a></p>
+                                    <p>© Copyright 2021  <a href="#">Plan and Foccus | All Rights Reserved</a></p>
                                 </div>
                                 <div class="site-footer__social">
                                     <a href="#"><i class="fab fa-twitter"></i></a>
